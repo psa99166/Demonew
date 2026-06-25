@@ -1,0 +1,133 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="5" passed="4" failed="1" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2026-06-24T14:44:50 IST" name="Suite" finished-at="2026-06-24T14:45:47 IST" duration-ms="57011">
+    <groups>
+      <group name="ErrorHandling">
+        <method signature="ErrorValidation.LoginErrorValidation()[pri:0, instance:pankajacademy.tests.ErrorValidation@57a78e3]" name="LoginErrorValidation" class="pankajacademy.tests.ErrorValidation"/>
+      </group> <!-- ErrorHandling -->
+      <group name="purchase">
+        <method signature="submitordertest.submitorder(java.util.HashMap)[pri:0, instance:pankajacademy.tests.submitordertest@1ffaf86]" name="submitorder" class="pankajacademy.tests.submitordertest"/>
+      </group> <!-- purchase -->
+    </groups>
+    <test started-at="2026-06-24T14:44:50 IST" name="ErrorValidation" finished-at="2026-06-24T14:45:12 IST" duration-ms="22060">
+      <class name="pankajacademy.tests.ErrorValidation">
+        <test-method is-config="true" signature="launchApplication()[pri:0, instance:pankajacademy.tests.ErrorValidation@57a78e3]" started-at="2026-06-24T14:44:50 IST" name="launchApplication" finished-at="2026-06-24T14:44:56 IST" duration-ms="6693" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchApplication -->
+        <test-method signature="LoginErrorValidation()[pri:0, instance:pankajacademy.tests.ErrorValidation@57a78e3]" started-at="2026-06-24T14:44:56 IST" name="LoginErrorValidation" finished-at="2026-06-24T14:45:00 IST" duration-ms="3022" status="FAIL">
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[expected [Login Successfully] but found [Incorrect email  password.]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: expected [Login Successfully] but found [Incorrect email  password.]
+at org.testng.Assert.fail(Assert.java:111)
+at org.testng.Assert.failNotEquals(Assert.java:1590)
+at org.testng.Assert.assertEqualsImpl(Assert.java:150)
+at org.testng.Assert.assertEquals(Assert.java:132)
+at org.testng.Assert.assertEquals(Assert.java:656)
+at org.testng.Assert.assertEquals(Assert.java:666)
+at pankajacademy.tests.ErrorValidation.LoginErrorValidation(ErrorValidation.java:24)
+at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
+at java.base/java.lang.reflect.Method.invoke(Method.java:565)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
+at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:697)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:230)
+at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63)
+at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:1005)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:203)
+at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1604)
+at org.testng.TestRunner.privateRun(TestRunner.java:744)
+at org.testng.TestRunner.run(TestRunner.java:616)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:421)
+at org.testng.SuiteRunner$SuiteWorker.run(SuiteRunner.java:463)
+at org.testng.internal.thread.ThreadUtil.lambda$execute$0(ThreadUtil.java:64)
+at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:328)
+at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1090)
+at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:614)
+at java.base/java.lang.Thread.run(Thread.java:1474)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- LoginErrorValidation -->
+        <test-method is-config="true" signature="teardown()[pri:0, instance:pankajacademy.tests.ErrorValidation@57a78e3]" started-at="2026-06-24T14:45:00 IST" name="teardown" finished-at="2026-06-24T14:45:02 IST" duration-ms="1531" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+        <test-method is-config="true" signature="launchApplication()[pri:0, instance:pankajacademy.tests.ErrorValidation@57a78e3]" started-at="2026-06-24T14:45:02 IST" name="launchApplication" finished-at="2026-06-24T14:45:07 IST" duration-ms="5356" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchApplication -->
+        <test-method signature="productErrorvalidation()[pri:0, instance:pankajacademy.tests.ErrorValidation@57a78e3]" started-at="2026-06-24T14:45:07 IST" name="productErrorvalidation" finished-at="2026-06-24T14:45:11 IST" duration-ms="4432" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- productErrorvalidation -->
+        <test-method is-config="true" signature="teardown()[pri:0, instance:pankajacademy.tests.ErrorValidation@57a78e3]" started-at="2026-06-24T14:45:11 IST" name="teardown" finished-at="2026-06-24T14:45:12 IST" duration-ms="347" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+      </class> <!-- pankajacademy.tests.ErrorValidation -->
+    </test> <!-- ErrorValidation -->
+    <test started-at="2026-06-24T14:44:50 IST" name="submitordertest" finished-at="2026-06-24T14:45:47 IST" duration-ms="57011">
+      <class name="pankajacademy.tests.submitordertest">
+        <test-method is-config="true" signature="launchApplication()[pri:0, instance:pankajacademy.tests.submitordertest@1ffaf86]" started-at="2026-06-24T14:44:50 IST" name="launchApplication" finished-at="2026-06-24T14:44:57 IST" duration-ms="6456" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchApplication -->
+        <test-method signature="submitorder(java.util.HashMap)[pri:0, instance:pankajacademy.tests.submitordertest@1ffaf86]" started-at="2026-06-24T14:44:57 IST" name="submitorder" data-provider="getData" finished-at="2026-06-24T14:45:02 IST" duration-ms="5660" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{password=Kampli@123, email=tvorvoi@gmail.com, productName=ZARA COAT 3}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- submitorder -->
+        <test-method is-config="true" signature="teardown()[pri:0, instance:pankajacademy.tests.submitordertest@1ffaf86]" started-at="2026-06-24T14:45:02 IST" name="teardown" finished-at="2026-06-24T14:45:06 IST" duration-ms="3556" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+        <test-method is-config="true" signature="launchApplication()[pri:0, instance:pankajacademy.tests.submitordertest@1ffaf86]" started-at="2026-06-24T14:45:06 IST" name="launchApplication" finished-at="2026-06-24T14:45:10 IST" duration-ms="4158" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchApplication -->
+        <test-method signature="submitorder(java.util.HashMap)[pri:0, instance:pankajacademy.tests.submitordertest@1ffaf86]" started-at="2026-06-24T14:45:10 IST" name="submitorder" data-provider="getData" finished-at="2026-06-24T14:45:14 IST" duration-ms="4362" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{password=Kampli@123, email=thousifvorvoi57@gmail.com, productName=ADIDAS ORIGINAL}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- submitorder -->
+        <test-method is-config="true" signature="teardown()[pri:0, instance:pankajacademy.tests.submitordertest@1ffaf86]" started-at="2026-06-24T14:45:14 IST" name="teardown" finished-at="2026-06-24T14:45:15 IST" duration-ms="404" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+        <test-method is-config="true" signature="launchApplication()[pri:0, instance:pankajacademy.tests.submitordertest@1ffaf86]" started-at="2026-06-24T14:45:15 IST" name="launchApplication" finished-at="2026-06-24T14:45:44 IST" duration-ms="29292" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchApplication -->
+        <test-method signature="controlorderTest()[pri:0, instance:pankajacademy.tests.submitordertest@1ffaf86]" started-at="2026-06-24T14:45:44 IST" name="controlorderTest" finished-at="2026-06-24T14:45:46 IST" depends-on-methods="pankajacademy.tests.submitordertest.submitorder" duration-ms="2287" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- controlorderTest -->
+        <test-method is-config="true" signature="teardown()[pri:0, instance:pankajacademy.tests.submitordertest@1ffaf86]" started-at="2026-06-24T14:45:46 IST" name="teardown" finished-at="2026-06-24T14:45:47 IST" duration-ms="430" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+      </class> <!-- pankajacademy.tests.submitordertest -->
+    </test> <!-- submitordertest -->
+  </suite> <!-- Suite -->
+</testng-results>

@@ -1,0 +1,8 @@
+pankajacademy\pageobject\OrderPage.class
+pankajResources\ExtentReporterNG.class
+pankajacademy\pageobject\CheckOutPage.class
+pankajacademy\pageobject\ConformationPage.class
+pankajacademy\pageobject\LandingPage.class
+pankajacademy\AbstrctComponents\AbstractComponent.class
+pankajacademy\pageobject\ProductCatalogue.class
+pankajacademy\pageobject\CartPage.class
